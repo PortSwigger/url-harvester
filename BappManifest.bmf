@@ -1,13 +1,13 @@
-Uuid: d675b67593f545d7830064e832a5c9f9
+Uuid: aaef302173384baca5185cabc7a1be61
 ExtensionType: 1
 Name: URL Harvester
 RepoName: url-harvester
 ScreenVersion: 1.0.0
 SerialVersion: 1
-MinPlatformVersion: 0
+MinPlatformVersion: 16
 ProOnly: False
-Author: ctflearner
-ShortDescription: This extension captures in-scope URLs from Burp&apos;s tools, providing a user interface to view, manage, and export these URLs.
-EntryPoint: ./URL_Harvester-1.0-SNAPSHOT.jar
+Author: PortSwigger
+ShortDescription: Provides a GUI to view, manage, and export captured in-scope URLs from the Proxy and Target tools.
+EntryPoint: URL_Harvester-1.0-SNAPSHOT.jar
 BuildCommand: ./gradlew jar
 SupportedProducts: Pro, Community
